@@ -27,3 +27,28 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+
+.group1, .group2, .group3 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Groups and items (Desktop) */
+@media all and (min-width: 800px) {
+  .group1, .group2, .group3 {
+    flex-direction: row;
+  }
+
+  .group3 {
+    background-color: rgb(88, 39, 4);
+  }
+}
+
+.item {
+  flex: 1;
+}
+
+img {
+  width: 95%;
+  margin: 10px;
+}
