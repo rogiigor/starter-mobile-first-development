@@ -28,18 +28,18 @@ main p {
   margin-top: 0;
 }
 
-.group1, .group2, .group3 {
+.group {
   display: flex;
   flex-direction: column;
 }
 
 /* Groups and items (Desktop) */
 @media all and (min-width: 800px) {
-  .group1, .group2, .group3 {
+  .group {
     flex-direction: row;
   }
 
-  .group3 {
+  .no-text {
     background-color: rgb(88, 39, 4);
   }
 }
