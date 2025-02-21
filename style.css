@@ -48,6 +48,10 @@ main p {
   flex: 1;
 }
 
+.item-double {
+  flex: 2;
+}
+
 img {
   width: 95%;
   margin: 10px;
